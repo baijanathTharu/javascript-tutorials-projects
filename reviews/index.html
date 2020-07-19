@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starter</title>
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"
+      integrity="sha512-c93ifPoTvMdEJH/rKIcBx//AL1znq9+4/RmMGafI/vnTFe/dKwnn1uoeszE2zJBQTS1Ck5CqSBE+34ng2PthJg=="
+      crossorigin="anonymous"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Starter</title>
-  <!-- font awesome  -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <!-- styles -->
-  <link rel="stylesheet" href="styles.css" />
-</head>
-
-<body>
-  <main>
-    <section class="container">
-      <div class="title">
-        <h2>Reviews</h2>
-        <div class="underline"></div>
-      </div>
-      <!-- review -->
-      <article class="review">
-        <div class="img-container">
-          <img src="./person-1.jpeg" id="person-img" alt="person">
+  <body>
+    <main>
+      <section class="container">
+        <div class="title">
+          <h2>Reviews</h2>
+          <div class="underline"></div>
         </div>
-        <h4 id="author">Sara Jones</h4>
-        <p id="job">UI Designer</p>
-        <p id="info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quas obcaecati earum fugiat dolor
-          mollitia quod quisquam commodi, pariatur natus quia dignissimos nesciunt architecto id facilis voluptates
-          quibusdam soluta rerum!</p>
-        <div class="button-container">
-          <button class="prev-btn"><i class="fa fa-chevron-left"></i></button>
-          <button class="next-btn"><i class="fa fa-chevron-right"></i></button>
-        </div>
-        <button class="random-btn">Surprise me</button>
-      </article>
-    </section>
-  </main>
-  <!-- javascript -->
-  <script src="app.js"></script>
-</body>
-
+        <!-- review -->
+        <article class="review">
+          <div class="img-container">
+            <img src="./person-1.jpeg" id="person-img" alt="person" />
+          </div>
+          <h4 id="author">Sara Jones</h4>
+          <p id="job">UI Designer</p>
+          <p id="info">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quas
+            obcaecati earum fugiat dolor mollitia quod quisquam commodi,
+            pariatur natus quia dignissimos nesciunt architecto id facilis
+            voluptates quibusdam soluta rerum!
+          </p>
+          <div class="button-container">
+            <button class="prev-btn"><i class="fa fa-chevron-left"></i></button>
+            <button class="next-btn">
+              <i class="fa fa-chevron-right"></i>
+            </button>
+          </div>
+          <button class="random-btn">Surprise me</button>
+        </article>
+      </section>
+    </main>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
 </html>
